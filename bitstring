@@ -1,0 +1,97 @@
+#include<stdio.h>
+int superset[20],supersetsize=0,
+set A[20],set A size=0,
+set B[20],set B size=0,
+bitstringA[20],bitstringB[20]
+bitstring union[20],bitstring intersection[20],
+int is  bitstring reading=0;
+int search (int arr[],int size,int element){
+for(int i=0;i<size;i++){
+}
+return-1;
+}
+void getset(int arr[],int size){
+  print("enter set element:");
+  for(int i=0;<size;i++){
+  scanf("%d",&arr[i]);
+   }
+  }
+void printfset(int arr[],int size){
+     print("{");
+     for(int i=0;i<size;i++){
+     if(i<size-1)printf(",");
+     }
+     printf("}\n");
+     }
+void printfbitstring(int bitstring[]){
+     printf("{");
+     for(int i=0;i<superset size:i++){
+         print("%d",bitstring[i]);
+         it(i<superset-1)print(",");
+         }
+         printf("}\n");
+     }
+void generatebitstring(){
+     generatebitstring(set A,set A size,bitstring A);
+     generatebitstring(set B,set B size,bitstring B);
+     printf("\n set A bit string:");
+     printf bitstring(bitstring A);
+     printf(set B set B bit string:");
+     printf(bitstring(bit string B);
+     is bitstringreading=1;
+     }
+void setunion(){
+          for(int i=0;i<superset size;i++){
+              bit stringunion[i]=bit string A[i]|bitstring B[i];
+          }
+     }
+void setintersection(){
+           for(int i=0;i<superset size,i++){
+                bit stringintersection[i]=bit string A[i]&bitstring B[i];
+                }
+         }
+void printresult asset(int bitstring[]){
+     printf("{");
+     int first=1;
+     for(int i=0;i<supersetsize;i++){
+         if(! first)printf(",");
+         printf("%d",superset[i]);
+         first=0;
+         }
+      }
+      printf("}\n");
+      }
+int main(){
+    printf("set operation using bit string:
+             union and intersection \n";
+    printf("enter super set size:");
+    scanf("%d",&superset size);
+    get set(superset,superset size);
+    printf("enter set A size:");
+    scanf("%d",&set A size);
+    get set(set A,SET A size);
+    printf("enter set B size:");
+    scanf("%d",&set B size);
+    get set(set B,set B size);
+    generate bitstring();
+    if(isbitstringready){
+       printf("\n set union:");
+       set union();
+       printfbitstring(bitstringunion);
+       printf("print union as set:");
+       printf result asset(bitstringunion);
+       printf("\n set intersection:");
+       set intersection();
+       printfbitstring(bitstringintersection);
+       printf("print intersection as set:");
+       printfresultasset(bitstringintersection);
+       }else{
+             print("\n bit string not generated!");
+       }
+       return 0;
+       }
+             
+     
+     
+     
+     

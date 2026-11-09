@@ -1,0 +1,8 @@
+<html>
+<body>
+<h2>image page</h2>
+<img src="img.jpeg"width="400" height="300"><br>
+<a href="index.html">back to home</a>
+</body>
+</html>
+
